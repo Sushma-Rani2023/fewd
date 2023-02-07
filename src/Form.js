@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {useNavigate} from 'react-router-dom'
 const Form = () => {
+
     const navigate = useNavigate();
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
